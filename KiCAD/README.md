@@ -1,6 +1,6 @@
 
 **KiCAD project file for the CANPicontroller ver1**
-*Main components*
+- *Main components*
 1. Semiconductors
   - U1 - [PIC18F27Q84-ISS](https://www.microchip.com/wwwproducts/en/PIC18F27Q84) for CAN-FD or [PIC18F27Q83-ISS](https://www.microchip.com/wwwproducts/en/PIC18F27Q83) for CAN 2.0V 
   - U2 - CAN Transceiver - [ATA6560](https://www.microchip.com/wwwproducts/en/ATA6560)
