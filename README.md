@@ -263,3 +263,38 @@ This Demo gives an example of hardware and software setup for a basic CAN node w
 #Debug with MLPAB PICkit4
 
 The PCB connector J3 has not the same connection as the [PICkit4 Debugger](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/PG164140)
+
+A cable with soldering on connector is needed to match the PICkit4
+<img src="Images/PICkit4_StandardConnectionToTargetCircuitry.PNG" alt="PICkit4 Standard Connection To Target Circuitry"/>
+with the CANPiController board ICSP Interface J3
+<img src="Images/ICSP_Interface.PNG" alt="CANPiController board ICSP Interface J3"/>
+
+PICkit4 Header
+| PICkit4       |
+| ------------- | 
+| 1. VPP/MCLR   |
+| 2. VDD        |
+| 3. VSS        | 
+| 4. PGD        | 
+| 5. PGC        | 
+| 6. NC         | 
+
+ICSP Header J3 on the CANPIController
+| ICSP J3       |
+| ------------- |
+| 1. MCLR VPP   |
+| 2. +5V VDD    |
+| 3. ICSPDAT    |
+| 4. ICSPCLK    |
+| 5. NC         |
+| 6. GND        |
+
+Connection from the PICkit4 Header to the ICSP Header J3 on the CANPIController
+| PICkit4       | ICSP J3       |
+| ------------- | ------------- |
+| 1. VPP/MCLR   | 1. MCLR VPP   |
+| 2. VDD        | 2. +5V VDD    |
+| 3. VSS        | 6. GND        |
+| 4. PGD        | 3. ICSPDAT    |
+| 5. PGC        | 5. NC         |
+| 6. NC         | 4. ICSPCLK    |     
