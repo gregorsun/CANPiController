@@ -39,7 +39,7 @@ PIN Setup
 
 PIN Manager Grid View
 
-<img src="Images/Images/PIN_ManagerGridView.PNG" alt="PIN Manager Grid View"/>
+<img src="Images/PIN_ManagerGridView.PNG" alt="PIN Manager Grid View"/>
 
 Other Setup is versy similar to the [pic18F57q84-curiosity-nano-CAN-node-mplab-mcc](https://github.com/microchip-pic-avr-examples/pic18F57q84-curiosity-nano-CAN-node-mplab-mcc)
 
