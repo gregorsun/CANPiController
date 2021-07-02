@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\PIC18F27Q84_CAN_node.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>131072</length>
+      <used>4776</used>
+      <free>126296</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>13056</length>
+      <used>116</used>
+      <free>12940</free>
+    </memory>
+  </executable>
+</project>
