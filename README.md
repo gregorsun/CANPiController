@@ -265,9 +265,13 @@ This Demo gives an example of hardware and software setup for a basic CAN node w
 The PCB connector J3 has not the same connection as the [PICkit4 Debugger](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/PG164140)
 
 A cable with soldering on connector is needed to match the PICkit4
+
 <img src="Images/PICkit4_StandardConnectionToTargetCircuitry.PNG" alt="PICkit4 Standard Connection To Target Circuitry"/>
+
 with the CANPiController board ICSP Interface J3
+
 <img src="Images/ICSP_Interface.PNG" alt="CANPiController board ICSP Interface J3"/>
+
 
 PICkit4 Header
 | PICkit4       |
