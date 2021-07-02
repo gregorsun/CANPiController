@@ -260,11 +260,12 @@ After sending a message with 0xFF in the third data byte while in response mode,
 
 This Demo gives an example of hardware and software setup for a basic CAN node with both periodic and response-driven transmissions, showcasing baud rate setup, message filtering, and RX and TX setup.  
 
-#Debug with MLPAB PICkit4
+
+##Debug with MLPAB PICkit4
 
 The PCB connector J3 has not the same connection as the [PICkit4 Debugger](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/PG164140)
 
-A cable with soldering on connector is needed to match the PICkit4
+A cable with soldering with connector is needed to match the PICkit4
 
 <img src="Images/PICkit4_StandardConnectionToTargetCircuitry.PNG" alt="PICkit4 Standard Connection To Target Circuitry"/>
 
@@ -302,3 +303,6 @@ Connection from the PICkit4 Header to the ICSP Header J3 on the CANPIController
 | 4. PGD        | 3. ICSPDAT    |
 | 5. PGC        | 5. NC         |
 | 6. NC         | 4. ICSPCLK    |     
+
+<img src="Images/DebugCable.PNG" alt="Debug Cable to connect PICkit4 to CANPiController J3 Debug header"/>
+
