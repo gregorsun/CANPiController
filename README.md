@@ -29,7 +29,7 @@ Hardware Used
 
 ## Setup
 
-The CANPIccontroller Board is used as the development platform. In addition the [CAN BUS analyzer](https://www.microchip.com/developmenttools/productdetails/apgdt002) or any other CAN bus capable analyzer is needed to view the outgoing CAN frames and send incoming CAN frames to the device.
+The CANPiController Board is used as the development platform. In addition the [CAN BUS analyzer](https://www.microchip.com/developmenttools/productdetails/apgdt002) or any other CAN bus capable analyzer is needed to view the outgoing CAN frames and send incoming CAN frames to the device.
 
 <img src="Images/Setup.jpg" alt="Hardware Setup"/>
 
@@ -259,3 +259,7 @@ After sending a message with 0xFF in the third data byte while in response mode,
 ## Summary
 
 This Demo gives an example of hardware and software setup for a basic CAN node with both periodic and response-driven transmissions, showcasing baud rate setup, message filtering, and RX and TX setup.  
+
+#Debug with MLPAB PICkit4
+
+The PCB connector J3 has not the same connection as the [PICkit4 Debugger](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/PG164140)
